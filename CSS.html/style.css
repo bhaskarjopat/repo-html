@@ -1,0 +1,16 @@
+h1{
+    color:aqua;
+}
+.you{
+    color:lightslategray;
+    text-align: center;
+    border: .1cm rosybrown dashed;
+    border-top: black .2cm double;
+}
+#me{
+    color: darkblue;
+    border-width: 21px;
+    border-color: mediumpurple;
+    border-style: dotted;
+    border-bottom: 3px cornsilk double;
+}
