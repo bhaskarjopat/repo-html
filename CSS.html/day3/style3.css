@@ -1,0 +1,15 @@
+#adidas{
+    border: 1cap double lavender;
+    padding: 6px;
+    /* width: 666;  */
+   /* width: 41%;  */
+    min-width: 337px;
+    max-width: 674px;
+    /* height: 93px;  */
+   /* height: 31%;  */
+   /* min-height: 205px;  */
+   /* max-height: 410px;  */
+   img{
+    width: 19%
+   }
+} 
