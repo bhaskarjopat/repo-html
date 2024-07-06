@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travelling Landing Page</title>
+</head>
+<body>
+    <section class="world">
+        <header>
+            <h2 class="logo">Travel The World</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="background.mp4" muted autoplay loop></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Best Travelling Agency</h2>
+            <br/><br/>
+            <h3>Explore with us</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laboriosam neque labore nisi excepturi error, nostrum voluptatum libero sint tempore ipsam dolorem doloremque, corrupti, fugiat hic accusamus. Amet, voluptate quam.
+            </p>
+            <a href="#">Enter</a>
+        </div>
+
+        <ul class="social">
+            <li>
+                <a href="#">
+                <img src="facebook.png" alt=""></a></li>
+            <li>
+                <a href="#">
+                <img src="instagram.png" alt=""></a></li>
+            <li>
+                <a href="#">
+                <img src="linkedin.png" alt=""></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const world = document.querySelector('.world')
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+                world.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
