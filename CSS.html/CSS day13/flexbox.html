@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Flexbox</title>
+    <style>
+        .container{
+            width: 600px;
+            margin: 50px auto 0;
+            background: #bbb;
+            padding: 10px;
+            border: 7px dashed black;
+
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .item1{
+            background: tomato;
+        }
+        .item2{
+            background: rgb(71, 255, 123);
+        }
+        .item3{
+            background: rgb(89, 71, 255);
+        }
+        .item4{
+            background: rgb(71, 249, 255);
+        }
+        .items{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS: Flexbox</h1>
+    <div class="container">
+        <div class="items item1">
+            First</div>
+        <div class="items item2">
+            Second</div>
+        <div class="items item3">
+            Third</div>
+        <div class="items item4">
+            Fourth</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
