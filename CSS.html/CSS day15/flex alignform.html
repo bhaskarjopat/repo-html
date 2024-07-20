@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Flex Alignform</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            padding: 0 0 0 40px;
+        }
+
+        #nothing{
+            background: cadetblue;
+            padding: 30px;
+            margin: 51px;
+            list-style: georgian;
+        }
+        #nothing li{
+            display: flex;
+            padding: 1px 0;
+            justify-content: flex-end;
+        }
+        #nothing li label{
+            flex: 1;
+        }
+        /* #nothing li input{
+            flex: 3;
+        } */
+
+        @media screen and (min-width: 1200px){
+            #nothing li input{
+            flex: 8;
+        }
+        }
+
+        @media screen and (min-width: 992px){
+            #nothing li input{
+            flex: 6;
+        }
+        }
+
+        @media screen and (min-width: 799px){
+            #nothing li input{
+            flex: 4;
+        }
+        }
+
+        @media screen and (min-width: 585px){
+            #nothing li input{
+            flex: 3;
+        }
+        }
+
+        @media screen and (min-width: 300px) and (max-width: 499px)  {
+            #nothing li { flex-direction: column;}
+            #nothing li input{
+            flex: 4;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS: Align Form with Flexbox</h1>
+    <form action="">
+        <ul id="nothing">
+            <li>
+                <label for="">
+                    Name
+                </label>
+                <input type="text">
+            </li>
+            <br/>
+            <li>
+                <label for="">
+                    Class
+                </label>
+                <input type="text">
+            </li>
+            <br/>
+            <li>
+                <label for="">
+                    Email Id
+                </label>
+                <input type="email">
+            </li>
+            <br/>
+            <li>
+                <button type="submit">
+                    Save
+                </button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
