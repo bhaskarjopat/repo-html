@@ -1,0 +1,32 @@
+.container{
+    border: 11px double darkblue;
+}
+.row{
+    border: 4px solid wheat;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-md, .col-lg{
+    border:  3px dashed rgb(246, 117, 237);
+}
+
+#header{
+    background: lawngreen;
+}
+#menu{
+    background: lightblue;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#content{
+    background: whitesmoke;
+}
+#sidebar{
+    background-color: lightblue;
+}
+#footer{
+    background: lightgreen;
+}
