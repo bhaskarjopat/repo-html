@@ -1,0 +1,27 @@
+#header{
+    color: lavender;
+    background: navy;
+}
+#menu{
+    list-style: upper-roman;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: lavenderblush;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover{
+    background: #40407a;
+}
+a:hover{
+    text-decoration: none;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}

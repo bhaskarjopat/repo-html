@@ -1,0 +1,24 @@
+.container{
+    border: 9px solid gray;
+}
+.row{
+    border: 15px solid burlywood;
+}
+.lightpink{
+    background: lightpink;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.darkgreen{
+    background: darkgreen;
+}
+.darkcyan{
+    background: darkcyan;
+}
